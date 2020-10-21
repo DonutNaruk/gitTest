@@ -17,12 +17,16 @@ public class GitTestAgain {
     public static void main(String[] args) {
         sayHello();
         sayGoodBye();
+        sayHi();
     }
     public static void sayHello(){
         System.out.println("Hello");
     }
     public static void sayGoodBye(){
         System.out.println("Good bye!");
+    }
+    public static void sayHi(){
+        System.out.println("Hi!");
     }
     
 }
