@@ -15,7 +15,14 @@ public class GitTestAgain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        sayHello();
+        sayGoodBye();
+    }
+    public static void sayHello(){
+        System.out.println("Hello");
+    }
+    public static void sayGoodBye(){
+        System.out.println("Good bye!");
     }
     
 }
